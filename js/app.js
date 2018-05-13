@@ -1,1 +1,3 @@
-console.log("app.js is working!");
+$("#firstButton").click(function() {
+  $(".row").toggleClass("animated rotateIn");
+});
