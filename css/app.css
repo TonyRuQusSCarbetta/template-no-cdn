@@ -1,4 +1,5 @@
 /* AUTOPREFIXER */
+
 /* https://autoprefixer.github.io/ */
 
 * {
@@ -11,8 +12,217 @@ html, body {
 
 img {
   object-fit: cover;
+  /* object-position: 0% 23%; */
 }
 
-.box {
-  min-height: 100px;
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------  */
+/* MEDIA QUERY'S  */
+/* Bootstrap XL breakpoint @ 1200px; */
+/* Bootstrap LG breakpoint @ 992px */
+/*-------------------------------------------  */
+/* Bootstrap MD breakpoint @ 768px */
+@media only screen and (max-width: 769px) {
+  .tabletLG {}
+}
+/* Bootstrap SM breakpoint @ 576px */
+@media only screen and (max-width: 427px) {
+  .mobileLG {}
+}
+
+@media only screen and (max-width: 376px) {
+  .mobileMD {}
+}
+
+@media only screen and (max-width: 321px) {
+  .mobileSM {}
 }
